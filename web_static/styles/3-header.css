@@ -10,7 +10,7 @@
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
-    background-image: "images/holberton-logo.png";
+    background-image: url("images/holberton-logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
