@@ -1,20 +1,22 @@
-#my_header {
+.my_header {
     position: relative;
     background-color: white;
     height: 70px;
     width: 100%;
-    border-bottom: 1px #CCCCCC;
-}
-#holberton-logo {
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    background-image: url("images/holberton-logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+    border-bottom: 1px solid #CCCCCC;
     display: flex;
     align-items: center;
-    justify-content: left;
+}
+.holberton {
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url("../images/holberton-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
     margin-left: 20px;
 }
